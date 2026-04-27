@@ -1,3 +1,9 @@
+def handler(request):
+    return {
+        "statusCode": 200,
+        "body": "API funcionando"
+    }
+
 import os
 from flask import Flask, request, jsonify
 from supabase import create_client
